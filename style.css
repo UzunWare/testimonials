@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h4, p {
+    margin: 0;
+}
+
+*, *:before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    color: white;
+}
+
+#item-1 {
+    background-color: hsl(263, 55%, 52%);
+    position: relative;
+    width: 40%;
+}
+
+#item-2 {
+    background-color: hsl(217, 19%, 35%);
+    width: 25%;
+}
+
+#item-3 {
+    background-color: white;
+    width: 25%;
+    color: black;
+}
+
+#item-4 {
+    background-color: white;
+    width: 25%;
+    color: black;
+}
+
+#item-5 {
+    background-color: hsl(219, 29%, 14%);
+    width: 25%;
+}
+
+.user-container {
+    border-radius: 5px;
+    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-photo {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.profile-exp {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.quote {
+    opacity: .7;
+    font-size: 1.1rem;
+}
+
+.profile {
+    opacity: .7;
+}
+
+.user-profile {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.user-info {
+    margin-left: 20px;
+}
+
+#quotation {
+    position: absolute;
+    right: 100px;
+    top: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+}
